@@ -63,12 +63,12 @@ public class exerciseOne {
      * input = 1234
      * Output = 1 2 3 4
      */
-    String integerBreaker(int input) {
+    void integerBreaker(int input) {
         String digits = Integer.toString(input);
         String mystr = "";
         for (int i = 0; i < digits.length(); i++) {
-            mystr += digits.charAt(i)+ " ";
-        }return mystr;
+            System.out.print(digits.charAt(i)+ " ");
+        }System.out.println(" ");
     }
     /*
      * Question 5:

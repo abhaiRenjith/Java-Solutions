@@ -22,9 +22,22 @@ public class Main {
         lineBreaker();
         System.out.println(test1.computeBodyMassIndex(452, 72));
         lineBreaker();
-        System.out.println(test1.integerBreaker(123456));
+        test1.integerBreaker(123456);
         lineBreaker();
         System.out.println(test1.integerOperations());
+        lineBreaker();
+        System.out.println("Exercise 2");
+        lineBreaker();
+        exerciseTwo test2 = new exerciseTwo();
+        System.out.println(test2.sumOfNaturalNumbers());
+        lineBreaker();
+        test2.multiplicationTable();
+        lineBreaker();
+        System.out.println(test2.factorialFinder());
+        lineBreaker();
+        test2.integerReversed();
+        lineBreaker();
+        test2.fibonacciSequence();
         lineBreaker();
     }
 }
