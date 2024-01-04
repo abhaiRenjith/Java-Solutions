@@ -55,6 +55,7 @@ public class exerciseTwo {
     * eg: 0 1 1 2 3 5 8 13 24 */
     void fibonacciSequence(){
         Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the number of terms to generate: ");
         int input = scan.nextInt();
         int number1 = 0;
         int number2 = 1;
