@@ -30,6 +30,7 @@ public class exerciseTwo {
     */
     int factorialFinder(){
         Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your integer: ");
         int input = scan.nextInt();
         int result = 1;
         for(int i= 1;i<=input;i++){
@@ -43,6 +44,7 @@ public class exerciseTwo {
      */
     void integerReversed(){
         Scanner scan = new Scanner(System.in);
+        System.out.print("Enter the integer to be reversed: ");
         int input = scan.nextInt();
         String mystr = Integer.toString(input); // Integer.toString(), is used to convert the integer to a string format.
         for(int i = 1;i < mystr.length()+1; i++){
@@ -55,7 +57,7 @@ public class exerciseTwo {
     * eg: 0 1 1 2 3 5 8 13 24 */
     void fibonacciSequence(){
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the number of terms to generate: ");
+        System.out.print("Enter the number of terms to generate: ");
         int input = scan.nextInt();
         int number1 = 0;
         int number2 = 1;
